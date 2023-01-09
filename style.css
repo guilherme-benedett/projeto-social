@@ -17,4 +17,13 @@ main{
 }
 .iphone{
     margin: auto;
+    margin: 0px;
+    background-attachment: fixed;
+}
+.logo{
+    display: block;
+    border-radius: 50%;
+    height: 55px;
+    margin-bottom: 20px;
+    background-position: right top;
 }

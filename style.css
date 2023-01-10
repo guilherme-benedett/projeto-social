@@ -4,25 +4,29 @@
     padding: 0px;
     margin: 0px;
 }
-main{
+body{
     background-image: url('imagens/fundo-madeira.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 
 }
-.iphone{
+.telefone{
+    background-image: url('imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    height: 627px;
+    width: 311px;
     margin: auto;
-    margin: 0px;
-    background-attachment: fixed;
+    position: relative;
 }
-.logo{
-    display: block;
-    border-radius: 50%;
-    height: 55px;
-    margin-bottom: 20px;
+iframe{
+    position: absolute;
+    top: 80px;
+    left: 23px;
+    height: 470px;
+    width: 266px;
 }

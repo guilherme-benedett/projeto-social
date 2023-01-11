@@ -37,11 +37,13 @@ img{
     display: block;
     box-shadow: 2px 2px 10px #000000;
 }
-.icones{
-    display: block;
+main{
+    position: relative;
+}
+section.icones{
     position: absolute;
-    top: 0px;
-    right: 10px;
+    top: -50px;
+    left: 830px;
 }
 img:hover{
     transform: translate(-10%,-10%);

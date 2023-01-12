@@ -47,5 +47,7 @@ section.icones{
 }
 img:hover{
     transform: translate(-10%,-10%);
+    border: 2px solid #ffffff;
     box-sizing: border-box;
+    transition: 1s;
 }

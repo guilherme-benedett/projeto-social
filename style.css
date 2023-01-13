@@ -46,8 +46,8 @@ section.icones{
     left: 830px;
 }
 img:hover{
-    transform: translate(-10%,-10%);
-    border: 2px solid #ffffff;
+    transform: translate(-5%,-5%);
+    border: 3px solid #ffffff;
     box-sizing: border-box;
-    transition: 1s;
+    transition: 2s;
 }

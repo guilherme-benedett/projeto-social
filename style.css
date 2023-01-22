@@ -3,8 +3,9 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
-body{
+main{
     background-image: url('imagens/fundo-madeira.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,17 +34,13 @@ iframe{
 img{
     width: 50px;
     border-radius: 50%;
-    margin: 20px;
-    display: block;
     box-shadow: 2px 2px 10px #000000;
+    margin: 10px;
 }
-main{
-    position: relative;
-}
-section.icones{
-    position: absolute;
-    top: -50px;
-    left: 830px;
+.icones{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 img:hover{
     transform: translate(-5%,-5%);
